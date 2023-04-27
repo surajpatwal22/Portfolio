@@ -11,7 +11,7 @@ const Home = () => {
           <div className='  flex flex-col justify-center h-full mt-10
           '>
             <h2 className='text-white text-4xl sm:text-7xl sm:ml-6 font-bold'> I'm a Front End Developer </h2>
-            <p className='text-gray-500 sm:ml-6'> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia a cum optio autem, unde voluptatem ipsam cumque accusamus velit nobis.</p>
+            <p className='text-gray-500 mt-3 sm:ml-6'> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia a cum optio autem, unde voluptatem ipsam cumque accusamus velit nobis.</p>
             <div>
               <button className=' group text-white text-base w-fit px-6 py-3 my-2 rounded-md flex justify-center items-center bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer font-bold sm:ml-6'>
                 Portfolio 
