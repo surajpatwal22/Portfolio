@@ -6,6 +6,7 @@ import Sociallinks from './Components/Sociallinks';
 import About from "./Components/About";
 import Portfolio  from "./Components/Portfolio";
 import Experience from "./Components/Experience";
+import Contact from './Components/Contact';
 
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
     <About/>
     <Portfolio />
     <Experience />
+    <Contact/>
     
 
     <Sociallinks />

@@ -7,6 +7,7 @@ import tailwind from "../Assets/tailwind.png";
 import github from "../Assets/github.png";
 
 
+
 const Experience = () => {
     const techs =[
         {
