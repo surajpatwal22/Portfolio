@@ -1,5 +1,10 @@
 import React from 'react'
 import mealdb from "../Assets/mealdb.png";
+import calculatorapp from "../Assets/calculatorapp.png";
+import movieapp from "../Assets/movieapp.png"
+import pokemonapp from "../Assets/pokemonapp.png"
+import todo from "../Assets/todo.png"
+import rockpaperscissor from "../Assets/rockpaperscissor.png"
 
 const Portfolio = () => {
 
@@ -7,27 +12,37 @@ const Portfolio = () => {
     {
       id: 1,
       scr: mealdb,
-      href: "https://www.linkedin.com/",
+      href: "https://mealdbapp.netlify.app/",
     },
     {
       id: 2,
-      scr: mealdb
+      scr: todo,
+      href: "https://to-doapp371.netlify.app/",
+
     },
     {
       id: 3,
-      scr: mealdb
+      scr: pokemonapp      ,
+       href: "https://pokemondetailapp.netlify.app/",
+
     },
     {
       id: 4,
-      scr: mealdb
+      scr: movieapp ,
+      href: "https://watchmoviesdetailnow.netlify.app/",
+
     },
     {
       id: 5,
-      scr: mealdb
+      scr: calculatorapp,
+      href: "https://calculatorapp234.netlify.app/",
+
     },
     {
       id: 6,
-      scr: mealdb
+      scr:  rockpaperscissor,
+      href: "https://playgamewithcomputer.netlify.app/",
+
     }
   ]
   return (
@@ -45,9 +60,9 @@ const Portfolio = () => {
 
               <div key={id} className=' shadow-md shadow-gray-600 rounded-lg'>
             <img src={scr} alt="" srcset=""
-              className=' rounded-md duration-200 hover:scale-105' />
+              className='  rounded-md duration-200 hover:scale-105' />
             <div className='flex items-center justify-center'>
-              <button className=' w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105' > <a href={href}> Demo</a> </button>
+              <button className=' w-1/2 px-6 py-3 m-1 duration-200 hover:scale-105' > <a href={href}> Demo</a> </button>
               {/* <button className=' w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Code</button> */}
             </div>
           </div>
